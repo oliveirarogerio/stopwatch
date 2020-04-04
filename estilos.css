@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2A363B;
+}
+
+.cronometro {
+  margin-top: -25vh;
+  margin-bottom: -25vh;
+  width: 700px;
+  -webkit-box-shadow: -15px 11px 40px 0px rgba(0, 0, 0, 0.95);
+  -moz-box-shadow: -15px 11px 40px 0px rgba(0,0,0,0.75);
+  box-shadow: -15px 11px 40px 0px rgba(0,0,0,0.75);
+  border-radius: 31px 31px 31px 31px;
+  -moz-border-radius: 31px 31px 31px 31px;
+  -webkit-border-radius: 31px 31px 31px 31px;
+  border: 0px solid #000000;
+  background-color: #354b50;
+}
+
+.cronometro .tempo {
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  font-size: 10em;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+
+}
+
+.cronometro .tempo .milissegundo {
+  font-size: 3rem;
+  padding-left: 10px;
+}
+
+.cronometro .tempo span {
+  align-self: baseline;
+}
+
+.start{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10vh;
+    margin-left: 30px;
+}
+
+.pause{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.restart{
+
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+}
+
+
+.cronometro .controles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cronometro .controles button {
+  display: inline;
+  color:black;
+  font-size: 0.95rem;
+  font-weight: bold;
+  min-width: 100px;
+  padding: 10px 0;
+}
